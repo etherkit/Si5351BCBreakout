@@ -1,0 +1,38 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,,C,C2 C4 C5 C6 C7 C8 C9,100n,C_0805_2012Metric,7,
+2,,C,C1 C3,4.7u,C_0805_2012Metric,2,
+3,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J5,3.3V Sel,PinHeader_1x03_P2.54mm_Vertical,1,~
+4,,BNC,J11,CLK0,SMA-ENDLAUNCH,1,
+5,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J8,CLK0,PinHeader_1x02_P2.54mm_Vertical,1,~
+6,,BNC,J12,CLK2,SMA-ENDLAUNCH,1,
+7,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J9,CLK2,PinHeader_1x02_P2.54mm_Vertical,1,~
+8,"Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x10,J6,CLK3-CLK7,PinHeader_1x10_P2.54mm_Vertical,1,~
+9,,BNC,J10,CLK4,SMA-ENDLAUNCH,1,
+10,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J7,CLK4,PinHeader_1x02_P2.54mm_Vertical,1,~
+11,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J4,PS Sel,PinHeader_1x03_P2.54mm_Vertical,1,~
+12,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x08,J1,Power/IO,PinHeader_1x08_P2.54mm_Vertical,1,~
+13,,BNC,J2,VC/CLKIN,SMA-ENDLAUNCH,1,
+14,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J3,VC/CLKIN,PinHeader_1x03_P2.54mm_Vertical,1,~
+15,,MOS_N,Q1 Q2,2N7002,SOT23-2N7002,2,
+16,,R,R3,0,R_0805_2012Metric,1,
+17,,R,R4 R8 R9 R10 R11 R12,10,R_0805_2012Metric,6,
+18,,R,R1 R2 R5 R6 R13 R14 R15,10k,R_0805_2012Metric,7,
+19,,ChipAttenuator,R7,PAT1220-C-10dB,PAT1220,1,
+20,,OSCILLATOR,U2,ASTX-H11-25.000MHZ-T,ASTX-H11-25.000MHZ-T,1,
+21,,LP2985,U1,LP2985-3.3,SOT23-5,1,
+22,,Si5351BC,U3,Si5351B/C,QFN-20-1EP_4x4mm_Pitch0.5mm,1,DOCUMENTATION
+
+
+
+
+
+Component Groups:,22
+Component Count:,41
+Fitted Components:,41
+Number of PCBs:,1
+Total components:,41
+Schematic Version:,A
+Schematic Date:,2019-01-01
+BoM Date:,Sun 06 Jan 2019 02:26:53 PM PST
+Schematic Source:,/home/jason/Nextcloud/Etherkit/git/Si5351BCBreakout/pcb/Si5351BCBreakout.sch
+KiCad Version:,Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1

@@ -1,0 +1,39 @@
+Si5351B/C Breakout Board BOM
+Rev A
+Etherkit
+6 January 2019
+
+| Part (marking)                  | Qty  | Ref                            | P/N
+======================================================================================================
+Capacitors (size 0805)
+| 100n                              7      C2, C4, C5, C6, C7, C8, C9
+| 4.7u MLCC                         2      C1, C3
+
+Connectors
+| 0.1 inch jumper                   3                                       3M 969102-0000-DA
+| 0.1 inch header - 3 pins          3      J3, J4, J5
+| 0.1 inch header - 8 pins          1      J1
+
+Crystals/Oscillators
+| 25 MHz TCXO                       1      U2                               Abracon ASTX-H11-25.000MHZ-T
+
+Semiconductors
+| 2N7002                            2      Q1, Q2                           NXP 2N7002P,215
+
+Resistors & Trimmers (0.125 W size 0805)
+| 0                                 1      R3
+| 10                                6      R4, R8, R9, R10, R11, R12
+| 10k                               7      R1, R2, R5, R6, R13, R14, R15
+                                           (R13 only for Si5351C, R14 only for Si5351B)
+| PAT1220-C-10dB                    1      R7
+
+ICs
+| LP2985-3.3                        1      U1                               TI LP2985-33DBVR
+| Si5351B or Si5351C                1      U3                               SiLabs SI5351B-B-GM or SI5351C-B-GM
+
+Miscellaneous
+| PCB                               1
+
+Optional
+| SMA female end launch             4      J2, J10, J11, J12
+| 0.1 inch header - 10 pins         1      J6
