@@ -2187,6 +2187,17 @@
 			(uuid "49017bcf-46b8-450c-aa48-e440748dbbcc")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount.step"
+			(offset
+				(xyz 0 2.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -3616,6 +3627,17 @@
 			(uuid "6318eb3f-2bd5-4338-85af-e2c74714a010")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount.step"
+			(offset
+				(xyz 0 2.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "EtherkitKicadLibrary:SMA-ENDLAUNCH"
 		(layer "F.Cu")
@@ -3890,6 +3912,17 @@
 			(uuid "7b82f85b-c0db-4f30-bcf3-dd0b1432b521")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount.step"
+			(offset
+				(xyz 0 2.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "EtherkitKicadLibrary:SMA-ENDLAUNCH"
 		(layer "F.Cu")
@@ -4164,6 +4197,17 @@
 			(uuid "68c285ee-cc55-40f5-8ee9-1a470231a6dd")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount.step"
+			(offset
+				(xyz 0 2.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:TSOT-23"
 		(layer "F.Cu")
@@ -7093,10 +7137,10 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 0.1 0.1 0.1)
+				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 -90)
 			)
 		)
 	)
@@ -7248,6 +7292,17 @@
 			(uuid "3d5a26c9-4d91-46c8-958f-c6e6007acc09")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
 		(layer "F.Cu")
@@ -7939,7 +7994,7 @@
 			(uuid "476dd591-ef71-4b0e-b7c7-424ff080a9b2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)

@@ -3953,16 +3953,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 138.43) (xy 215.9 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "790c4238-21ea-4e63-9e7a-ed8fa3c5efd3")
-	)
-	(wire
-		(pts
 			(xy 204.47 106.68) (xy 199.39 106.68)
 		)
 		(stroke
@@ -4729,28 +4719,6 @@
 		(uuid "1d916ec2-d867-4696-9ba8-aa9e6ff06c13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 160.02 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "VC_INTR"
-		(shape input)
-		(at 208.28 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "213116df-dc75-432a-af1a-3d32e074f820")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.28 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10747,83 +10715,6 @@
 	)
 	(symbol
 		(lib_id "EtherkitKicadLibrary:R")
-		(at 212.09 138.43 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c3169c6")
-		(property "Reference" "R17"
-			(at 212.09 133.985 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 212.09 135.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 212.09 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "834b4bde-56e9-4ba3-ac28-3e97082aab1e")
-		)
-		(pin "2"
-			(uuid "b2d6d293-b48b-41dd-8745-930c8f20aeaa")
-		)
-		(instances
-			(project "Si5351BCBreakout"
-				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EtherkitKicadLibrary:R")
 		(at 212.09 146.05 270)
 		(unit 1)
 		(body_style 1)
@@ -11123,80 +11014,6 @@
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EtherkitKicadLibrary:+3.3VREG")
-		(at 219.71 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c318454")
-		(property "Reference" "#PWR045"
-			(at 219.71 139.446 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "+3.3VREG"
-			(at 219.9386 134.5438 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d6c8194-7225-4c83-b793-7492d2f31560")
-		)
-		(instances
-			(project "Si5351BCBreakout"
-				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
