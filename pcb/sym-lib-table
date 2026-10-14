@@ -1,2 +1,4 @@
 (sym_lib_table
+	(version 7)
+	(lib (name "Si5351BCBreakout-cache") (type "Legacy") (uri "/home/jason/Nextcloud/Etherkit/git/Si5351BCBreakout/pcb/Si5351BCBreakout-cache.lib") (options "") (descr "Legacy project cache library"))
 )
