@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Si5351B/C Breakout Board")
-		(date "2026-10-10")
+		(date "2026-10-17")
 		(rev "B")
 		(company "Etherkit")
 		(comment 4 "Creative Commons License 4.0 CC-BY-SA")
@@ -3252,16 +3252,10 @@
 		(uuid "0707f881-f34d-446f-bb07-0d2b9ede025f")
 	)
 	(junction
-		(at 204.47 80.01)
+		(at 220.98 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "210c2591-4242-4055-a66e-264f16fb0f63")
-	)
-	(junction
-		(at 95.25 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2947f98a-58f7-496c-9d23-edc456918903")
 	)
 	(junction
 		(at 58.42 121.92)
@@ -3270,7 +3264,7 @@
 		(uuid "2a0fd41a-eb3f-4912-9918-cbe457f8f040")
 	)
 	(junction
-		(at 204.47 92.71)
+		(at 220.98 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d191e22-ad51-4e38-a378-3c2ad840aaaa")
@@ -3330,25 +3324,19 @@
 		(uuid "7822647e-8524-48be-bd3f-6e754919f61d")
 	)
 	(junction
-		(at 54.61 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ebb0f33-7b61-4302-86b3-d5e2a493fa91")
-	)
-	(junction
 		(at 101.6 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f55dd0a-8039-442c-b8eb-c9e241b903d2")
 	)
 	(junction
-		(at 64.77 71.12)
+		(at 85.09 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e80935e-e2b7-442b-a6c5-009616e67d03")
 	)
 	(junction
-		(at 204.47 106.68)
+		(at 220.98 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4882810-0585-4836-a82a-10e1823aa01a")
@@ -3364,12 +3352,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b085b988-a20d-42ab-a25a-b0cd8a37000f")
-	)
-	(junction
-		(at 85.09 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6c6b5d1-3b10-4970-aa47-0ae1bb75ff10")
 	)
 	(junction
 		(at 168.91 100.33)
@@ -3400,6 +3382,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f10bbc93-2878-47a1-b958-d9c8523c11e0")
+	)
+	(no_connect
+		(at 124.46 86.36)
+		(uuid "02e12899-7ec0-4e05-a2b8-d08591b8a2b2")
 	)
 	(wire
 		(pts
@@ -3483,7 +3469,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 83.82) (xy 54.61 83.82)
+			(xy 78.74 83.82) (xy 74.93 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3503,7 +3489,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 76.2) (xy 204.47 80.01)
+			(xy 220.98 78.74) (xy 220.98 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3533,16 +3519,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 83.82) (xy 54.61 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "195fcba1-a2f7-473c-8b69-97fb76d62cc5")
-	)
-	(wire
-		(pts
 			(xy 142.24 48.26) (xy 137.16 48.26)
 		)
 		(stroke
@@ -3553,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 71.12) (xy 64.77 71.12)
+			(xy 93.98 71.12) (xy 85.09 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3703,7 +3679,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 71.12) (xy 64.77 77.47)
+			(xy 85.09 71.12) (xy 85.09 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3753,13 +3729,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 71.12) (xy 64.77 71.12)
+			(xy 74.93 71.12) (xy 85.09 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "496d2792-f9df-470e-a7b9-7dfcb567f7f3")
+	)
+	(wire
+		(pts
+			(xy 210.82 109.22) (xy 220.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dccc16b-7341-4adb-9f58-f2ecbe50264d")
 	)
 	(wire
 		(pts
@@ -3783,7 +3769,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 88.9) (xy 204.47 92.71)
+			(xy 220.98 91.44) (xy 220.98 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3803,23 +3789,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 80.01) (xy 199.39 80.01)
+			(xy 210.82 82.55) (xy 220.98 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58af9263-df32-4a0a-b970-a06ec77f8cd9")
-	)
-	(wire
-		(pts
-			(xy 102.87 99.06) (xy 102.87 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "594319de-e8cf-479b-bb88-3e80f5b4447d")
+		(uuid "5411fe99-6171-464e-b12e-c72609defcc2")
 	)
 	(wire
 		(pts
@@ -3913,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 81.28) (xy 54.61 83.82)
+			(xy 74.93 81.28) (xy 74.93 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3943,6 +3919,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 95.25) (xy 220.98 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "722f13ad-53a5-488f-a54a-0008f42cff98")
+	)
+	(wire
+		(pts
 			(xy 134.62 170.18) (xy 143.51 170.18)
 		)
 		(stroke
@@ -3950,16 +3936,6 @@
 			(type default)
 		)
 		(uuid "77329931-4a17-43c6-bac4-4d9e7a702f61")
-	)
-	(wire
-		(pts
-			(xy 204.47 106.68) (xy 199.39 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79a94cc4-e407-45c0-ab4a-aeac30820f2b")
 	)
 	(wire
 		(pts
@@ -4003,23 +3979,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 83.82) (xy 85.09 83.82)
+			(xy 91.44 83.82) (xy 102.87 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "85768e63-1bc0-42e0-927f-19c548b290ec")
-	)
-	(wire
-		(pts
-			(xy 54.61 99.06) (xy 102.87 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85cfef54-746a-4109-b3e8-c63ec1c91964")
 	)
 	(wire
 		(pts
@@ -4043,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 92.71) (xy 219.71 92.71)
+			(xy 220.98 95.25) (xy 236.22 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4063,7 +4029,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 101.6) (xy 204.47 106.68)
+			(xy 220.98 104.14) (xy 220.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4120,16 +4086,6 @@
 			(type default)
 		)
 		(uuid "9d80725b-5a05-4d2c-ac49-5dbdab052740")
-	)
-	(wire
-		(pts
-			(xy 85.09 83.82) (xy 86.36 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f25b6dc-5fa6-4ad9-8ba4-63735429d2ce")
 	)
 	(wire
 		(pts
@@ -4193,26 +4149,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 86.36) (xy 124.46 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa28e11f-0e54-4372-8e66-358c80a7f9ea")
-	)
-	(wire
-		(pts
-			(xy 93.98 83.82) (xy 95.25 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaaf1691-6e1a-43d1-b115-a9256ec3d07c")
-	)
-	(wire
-		(pts
 			(xy 38.1 31.75) (xy 36.83 31.75)
 		)
 		(stroke
@@ -4253,16 +4189,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 83.82) (xy 85.09 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c06f5f4c-6436-44ea-bf9f-afdddbd18a80")
-	)
-	(wire
-		(pts
 			(xy 57.15 181.61) (xy 39.37 181.61)
 		)
 		(stroke
@@ -4273,7 +4199,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 69.85) (xy 64.77 71.12)
+			(xy 85.09 69.85) (xy 85.09 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4283,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 59.69) (xy 64.77 62.23)
+			(xy 85.09 59.69) (xy 85.09 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4403,17 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 92.71) (xy 204.47 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8ed9f8e-88dd-4ce5-ba86-ce6fefdc8e34")
-	)
-	(wire
-		(pts
-			(xy 54.61 73.66) (xy 54.61 71.12)
+			(xy 74.93 73.66) (xy 74.93 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4523,7 +4439,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 80.01) (xy 204.47 80.01)
+			(xy 236.22 82.55) (xy 220.98 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4573,7 +4489,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 72.39) (xy 73.66 71.12)
+			(xy 93.98 72.39) (xy 93.98 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4593,7 +4509,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 106.68) (xy 204.47 106.68)
+			(xy 234.95 109.22) (xy 220.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4603,13 +4519,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 83.82) (xy 124.46 83.82)
+			(xy 107.95 83.82) (xy 124.46 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7b79788-b397-495f-83c6-9ab484d6026d")
+		(uuid "f7593022-ac89-4110-bad4-a10912a775e7")
 	)
 	(wire
 		(pts
@@ -4631,19 +4547,39 @@
 		)
 		(uuid "fc9f368c-5bed-4c72-846e-dbd72b844bfc")
 	)
-	(wire
-		(pts
-			(xy 95.25 83.82) (xy 95.25 85.09)
+	(label "CLK4_OUT"
+		(at 219.71 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "0c2fe823-19e3-4b3f-b73d-ffb2870f115a")
+	)
+	(label "CLK2_OUT"
+		(at 219.71 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(uuid "fe666955-935e-41e6-88b3-a5b1c5d3625b")
+		(uuid "0fa2233c-a9bf-412b-8102-9cca42542eb1")
+	)
+	(label "CLK0_OUT"
+		(at 219.71 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "210da88a-e100-4a93-bec3-dc11d0d73a8b")
 	)
 	(global_label "CLK0"
 		(shape input)
-		(at 199.39 92.71 180)
+		(at 203.2 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4652,7 +4588,7 @@
 		)
 		(uuid "0aaff22a-0407-49c5-a32b-92ca95219bce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.39 92.71 0)
+			(at 203.2 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4973,7 +4909,7 @@
 	)
 	(global_label "CLK4"
 		(shape input)
-		(at 199.39 80.01 180)
+		(at 203.2 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4982,7 +4918,7 @@
 		)
 		(uuid "8d77b71a-e8ec-4bf2-a3f9-665398f3f09f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.39 80.01 0)
+			(at 203.2 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5039,7 +4975,7 @@
 	)
 	(global_label "CLK2"
 		(shape input)
-		(at 199.39 106.68 180)
+		(at 203.2 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5048,7 +4984,7 @@
 		)
 		(uuid "9dabe81f-46d6-4fc3-8251-cd3eb47473e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.39 106.68 0)
+			(at 203.2 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5278,6 +5214,39 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Skyworks"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a5167ff-81bb-448e-870b-85585ba8b8bb")
 		)
@@ -5346,13 +5315,43 @@
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
 					(reference "U3")
 					(unit 1)
+					(variant
+						(name "Si5351B")
+						(field
+							(name "LCSC")
+							(value "C1518994")
+						)
+						(field
+							(name "MPN")
+							(value "SI5351B-B-GM")
+						)
+						(field
+							(name "Value")
+							(value "Si5351B")
+						)
+					)
+					(variant
+						(name "Si5351C")
+						(field
+							(name "LCSC")
+							(value "C2649375")
+						)
+						(field
+							(name "MPN")
+							(value "SI5351C-B-GMR")
+						)
+						(field
+							(name "Value")
+							(value "Si5351C")
+						)
+					)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "EtherkitKicadLibrary:OSCILLATOR")
-		(at 64.77 83.82 0)
+		(at 85.09 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5362,7 +5361,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2c0574")
 		(property "Reference" "U2"
-			(at 50.927 85.09 0)
+			(at 71.247 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5372,8 +5371,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ASTX-H11-25.000MHZ-T"
-			(at 28.956 87.757 0)
+		(property "Value" "25 MHz TCXO"
+			(at 66.04 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5384,7 +5383,7 @@
 			)
 		)
 		(property "Footprint" "EtherkitKicadLibrary:ASTX-H11-25.000MHZ-T"
-			(at 64.77 83.82 0)
+			(at 85.09 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5395,7 +5394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 83.82 0)
+			(at 85.09 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5405,7 +5404,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 83.82 0)
+			(at 85.09 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "OW2EL89CENUXK7YLC-25M"
+			(at 85.09 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YXC"
+			(at 85.09 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C48888230"
+			(at 85.09 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5446,7 +5478,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2c06a3")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 126.492 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5499,6 +5531,39 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8536e549-7d5f-452a-9af8-b4ac069b4f3c")
 		)
@@ -5508,7 +5573,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5579,6 +5644,39 @@
 				)
 			)
 		)
+		(property "MPN" "BSS138-7-F"
+			(at 81.28 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 81.28 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C40912"
+			(at 81.28 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "4c4a5f33-629a-4b0e-b073-4490a1943f20")
 		)
@@ -5608,7 +5706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2c08c8")
-		(property "Reference" "R12"
+		(property "Reference" "R9"
 			(at 132.842 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5661,6 +5759,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F100JT5E"
+			(at 137.16 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 137.16 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17415"
+			(at 137.16 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8782ea8f-2e1b-4766-ad35-338aa41c5ca0")
 		)
@@ -5670,7 +5801,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R12")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5687,7 +5818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d29ac")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 71.12 29.464 0)
 			(hide yes)
 			(show_name no)
@@ -5744,7 +5875,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5888,6 +6019,39 @@
 				)
 			)
 		)
+		(property "MPN" "LP2985AIM5-3.3/NOPB"
+			(at 46.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 46.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C16085"
+			(at 46.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a6d2ff2-dafc-48c7-9663-fa75d0cf88ae")
 		)
@@ -5921,7 +6085,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c2d3859")
 		(property "Reference" "J5"
 			(at 66.548 19.05 90)
@@ -6059,6 +6223,39 @@
 				)
 			)
 		)
+		(property "MPN" "CL21A475KAQNNNE"
+			(at 29.21 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 29.21 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1779"
+			(at 29.21 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "54a8fdad-879c-420f-9ce4-2731d46f4612")
 		)
@@ -6130,6 +6327,39 @@
 		)
 		(property "Description" ""
 			(at 36.83 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B103KBANNNC"
+			(at 36.83 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 36.83 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1710"
+			(at 36.83 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6217,6 +6447,39 @@
 				)
 			)
 		)
+		(property "MPN" "CL21A475KAQNNNE"
+			(at 58.42 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 58.42 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1779"
+			(at 58.42 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f65edf2f-a166-42db-be1b-74b0901e40a0")
 		)
@@ -6243,7 +6506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d4486")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR013"
 			(at 78.74 30.226 0)
 			(hide yes)
 			(show_name no)
@@ -6300,7 +6563,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR016")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6612,7 +6875,7 @@
 	)
 	(symbol
 		(lib_id "EtherkitKicadLibrary:+3.3VREG")
-		(at 64.77 59.69 0)
+		(at 85.09 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6621,8 +6884,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d508b")
-		(property "Reference" "#PWR011"
-			(at 64.77 60.706 0)
+		(property "Reference" "#PWR016"
+			(at 85.09 60.706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6633,7 +6896,7 @@
 			)
 		)
 		(property "Value" "+3.3VREG"
-			(at 64.9986 55.8038 0)
+			(at 85.3186 55.8038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6643,7 +6906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 59.69 0)
+			(at 85.09 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6653,7 +6916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 59.69 0)
+			(at 85.09 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6663,7 +6926,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 59.69 0)
+			(at 85.09 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6678,7 +6941,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR011")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6686,7 +6949,7 @@
 	)
 	(symbol
 		(lib_id "EtherkitKicadLibrary:R")
-		(at 64.77 66.04 0)
+		(at 85.09 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6695,8 +6958,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d5367")
-		(property "Reference" "R3"
-			(at 66.7512 64.8716 0)
+		(property "Reference" "R4"
+			(at 87.0712 64.8716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6707,7 +6970,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 66.7512 67.183 0)
+			(at 87.0712 67.183 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6718,7 +6981,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 64.77 66.04 0)
+			(at 85.09 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6729,7 +6992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 66.04 0)
+			(at 85.09 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6739,7 +7002,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 66.04 0)
+			(at 85.09 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F100JT5E"
+			(at 85.09 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 85.09 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17415"
+			(at 85.09 66.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6757,7 +7053,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6765,7 +7061,7 @@
 	)
 	(symbol
 		(lib_id "EtherkitKicadLibrary:C")
-		(at 73.66 74.93 0)
+		(at 93.98 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6775,7 +7071,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d58e4")
 		(property "Reference" "C4"
-			(at 76.6572 73.7616 0)
+			(at 96.9772 73.7616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6786,7 +7082,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 76.6572 76.073 0)
+			(at 96.9772 76.073 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6797,7 +7093,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 73.66 74.93 0)
+			(at 93.98 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6808,7 +7104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 74.93 0)
+			(at 93.98 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6818,7 +7114,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 74.93 0)
+			(at 93.98 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 93.98 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 93.98 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 93.98 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6844,7 +7173,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 77.47 0)
+		(at 93.98 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6853,8 +7182,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d5a34")
-		(property "Reference" "#PWR015"
-			(at 73.66 83.82 0)
+		(property "Reference" "#PWR019"
+			(at 93.98 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6865,7 +7194,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.787 81.8642 0)
+			(at 94.107 81.8642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6875,7 +7204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 77.47 0)
+			(at 93.98 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6886,7 +7215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 77.47 0)
+			(at 93.98 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6897,7 +7226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 77.47 0)
+			(at 93.98 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6912,7 +7241,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6920,7 +7249,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 90.17 0)
+		(at 85.09 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6929,8 +7258,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d5a80")
-		(property "Reference" "#PWR012"
-			(at 64.77 96.52 0)
+		(property "Reference" "#PWR017"
+			(at 85.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6941,7 +7270,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.897 94.5642 0)
+			(at 85.217 94.5642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6951,7 +7280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 90.17 0)
+			(at 85.09 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6962,7 +7291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 90.17 0)
+			(at 85.09 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6973,7 +7302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 90.17 0)
+			(at 85.09 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6988,83 +7317,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 85.09 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c2d5b27")
-		(property "Reference" "#PWR019"
-			(at 85.09 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.217 97.1042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7643ebbc-51e8-4dbc-b414-70136d671205")
-		)
-		(instances
-			(project "Si5351BCBreakout"
-				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7072,17 +7325,17 @@
 	)
 	(symbol
 		(lib_id "EtherkitKicadLibrary:R")
-		(at 54.61 77.47 0)
+		(at 74.93 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c2d5f69")
-		(property "Reference" "R1"
-			(at 56.5912 76.3016 0)
+		(property "Reference" "R3"
+			(at 76.9112 76.3016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7093,7 +7346,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 56.5912 78.613 0)
+			(at 76.9112 78.613 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7104,7 +7357,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 54.61 77.47 0)
+			(at 74.93 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7115,7 +7368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 77.47 0)
+			(at 74.93 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7125,7 +7378,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 77.47 0)
+			(at 74.93 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 74.93 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 74.93 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 74.93 77.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7143,7 +7429,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7214,6 +7500,39 @@
 				)
 			)
 		)
+		(property "MPN" "BSS138-7-F"
+			(at 81.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 81.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C40912"
+			(at 81.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "71528e9c-b052-4da2-958f-bffa7a911499")
 		)
@@ -7243,7 +7562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d8c40")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 94.6912 125.8316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7296,6 +7615,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 92.71 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 92.71 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 92.71 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b4221da2-74fa-4896-b67c-364b883a6e13")
 		)
@@ -7305,7 +7657,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7322,7 +7674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d8df2")
-		(property "Reference" "R9"
+		(property "Reference" "R6"
 			(at 103.5812 125.8316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7375,6 +7727,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 101.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 101.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 101.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d97d5f93-6564-467a-882d-eb62109336d3")
 		)
@@ -7384,7 +7769,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R9")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7401,7 +7786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d9397")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 60.4012 125.8316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7454,6 +7839,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 58.42 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 58.42 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 58.42 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c05afded-fb94-4c66-8a71-6cb02308477e")
 		)
@@ -7463,7 +7881,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7480,7 +7898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d939d")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 68.0212 125.8316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7533,6 +7951,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 66.04 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 66.04 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 66.04 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eda5ba9a-86ea-4100-be2b-60aa9b81f014")
 		)
@@ -7542,7 +7993,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7559,7 +8010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d96e8")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR018"
 			(at 92.71 121.666 0)
 			(hide yes)
 			(show_name no)
@@ -7616,7 +8067,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR020")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7631,7 +8082,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c2d97fd")
 		(property "Reference" "J4"
 			(at 53.848 106.68 90)
@@ -7716,7 +8167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d99e1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 67.31 117.856 0)
 			(hide yes)
 			(show_name no)
@@ -7773,7 +8224,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7864,7 +8315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d9dcb")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 81.28 135.636 0)
 			(hide yes)
 			(show_name no)
@@ -7921,7 +8372,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7938,7 +8389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2d9e4e")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 81.28 158.496 0)
 			(hide yes)
 			(show_name no)
@@ -7995,7 +8446,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8011,7 +8462,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c2da12e")
 		(property "Reference" "J1"
 			(at 35.052 131.6482 0)
@@ -8257,7 +8708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2e3d6f")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 154.94 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8316,7 +8767,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8408,7 +8859,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c2e665b")
 		(property "Reference" "J2"
 			(at 36.703 175.5648 0)
@@ -8478,17 +8929,17 @@
 	)
 	(symbol
 		(lib_id "EtherkitKicadLibrary:BNC")
-		(at 223.52 80.01 0)
+		(at 240.03 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c2e6a22")
 		(property "Reference" "J11"
-			(at 226.0854 79.9846 0)
+			(at 242.5954 82.5246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8499,7 +8950,7 @@
 			)
 		)
 		(property "Value" "CLK4"
-			(at 226.0854 82.296 0)
+			(at 242.5954 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8510,7 +8961,7 @@
 			)
 		)
 		(property "Footprint" "EtherkitKicadLibrary:SMA-ENDLAUNCH"
-			(at 223.52 80.01 0)
+			(at 240.03 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8521,7 +8972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 80.01 0)
+			(at 240.03 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8531,7 +8982,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 80.01 0)
+			(at 240.03 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8633,17 +9084,17 @@
 	)
 	(symbol
 		(lib_id "EtherkitKicadLibrary:BNC")
-		(at 223.52 92.71 0)
+		(at 240.03 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c2e7ac1")
 		(property "Reference" "J12"
-			(at 226.0854 92.6846 0)
+			(at 242.5954 95.2246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8654,7 +9105,7 @@
 			)
 		)
 		(property "Value" "CLK0"
-			(at 226.0854 94.996 0)
+			(at 242.5954 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8665,7 +9116,7 @@
 			)
 		)
 		(property "Footprint" "EtherkitKicadLibrary:SMA-ENDLAUNCH"
-			(at 223.52 92.71 0)
+			(at 240.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8676,7 +9127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 92.71 0)
+			(at 240.03 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8686,7 +9137,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 92.71 0)
+			(at 240.03 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8712,17 +9163,17 @@
 	)
 	(symbol
 		(lib_id "EtherkitKicadLibrary:BNC")
-		(at 222.25 106.68 0)
+		(at 238.76 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c2ebf25")
 		(property "Reference" "J10"
-			(at 224.8154 106.6546 0)
+			(at 241.3254 109.1946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8733,7 +9184,7 @@
 			)
 		)
 		(property "Value" "CLK2"
-			(at 224.8154 108.966 0)
+			(at 241.3254 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8744,7 +9195,7 @@
 			)
 		)
 		(property "Footprint" "EtherkitKicadLibrary:SMA-ENDLAUNCH"
-			(at 222.25 106.68 0)
+			(at 238.76 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8755,7 +9206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 106.68 0)
+			(at 238.76 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8765,7 +9216,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 106.68 0)
+			(at 238.76 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8791,7 +9242,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 110.49 0)
+		(at 238.76 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8800,8 +9251,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2ebfff")
-		(property "Reference" "#PWR046"
-			(at 222.25 116.84 0)
+		(property "Reference" "#PWR047"
+			(at 238.76 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8812,7 +9263,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.377 114.8842 0)
+			(at 238.887 117.4242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8822,7 +9273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 110.49 0)
+			(at 238.76 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8833,7 +9284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 110.49 0)
+			(at 238.76 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8844,7 +9295,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 110.49 0)
+			(at 238.76 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8859,7 +9310,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8867,7 +9318,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 96.52 0)
+		(at 240.03 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8876,8 +9327,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2ec0b9")
-		(property "Reference" "#PWR048"
-			(at 223.52 102.87 0)
+		(property "Reference" "#PWR049"
+			(at 240.03 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8888,7 +9339,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.647 100.9142 0)
+			(at 240.157 103.4542 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8898,7 +9349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 96.52 0)
+			(at 240.03 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8909,7 +9360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 96.52 0)
+			(at 240.03 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8920,7 +9371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 96.52 0)
+			(at 240.03 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8935,7 +9386,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8943,7 +9394,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 83.82 0)
+		(at 240.03 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8952,8 +9403,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2ec1f0")
-		(property "Reference" "#PWR047"
-			(at 223.52 90.17 0)
+		(property "Reference" "#PWR048"
+			(at 240.03 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8964,7 +9415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.647 88.2142 0)
+			(at 240.157 90.7542 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8974,7 +9425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 83.82 0)
+			(at 240.03 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8985,7 +9436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 83.82 0)
+			(at 240.03 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8996,7 +9447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 83.82 0)
+			(at 240.03 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9011,7 +9462,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9028,7 +9479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2ecd48")
-		(property "Reference" "R13"
+		(property "Reference" "R10"
 			(at 144.2212 52.1716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9081,6 +9532,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F100JT5E"
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17415"
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f63ed348-6071-49ab-802f-17f34f0e219e")
 		)
@@ -9090,7 +9574,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R13")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9107,7 +9591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2ee83e")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 154.1272 62.3316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9160,6 +9644,39 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 151.13 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 151.13 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 151.13 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "460df41c-2675-40ca-9b0f-afec1114ea9f")
 		)
@@ -9169,7 +9686,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9186,7 +9703,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2eeb89")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 137.16 48.006 0)
 			(hide yes)
 			(show_name no)
@@ -9243,7 +9760,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9260,7 +9777,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2eeca2")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 132.08 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9319,7 +9836,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9336,7 +9853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2eed4f")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 151.13 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9395,7 +9912,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9412,7 +9929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2ef3c0")
-		(property "Reference" "R14"
+		(property "Reference" "R11"
 			(at 152.4 118.237 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9463,6 +9980,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F100JT5E"
+			(at 152.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 152.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17415"
+			(at 152.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5537e48-2f83-4112-86ec-dd3eb200a37a")
 		)
@@ -9472,7 +10022,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R14")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9489,7 +10039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2ef9bb")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 173.99 81.915 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9540,6 +10090,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F100JT5E"
+			(at 173.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 173.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17415"
+			(at 173.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7bb2aa8b-aa1b-4263-9655-f016a1adbea3")
 		)
@@ -9549,7 +10132,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R15")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9566,7 +10149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2efc37")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 173.99 102.997 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9617,6 +10200,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F100JT5E"
+			(at 173.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 173.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17415"
+			(at 173.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "96cf6747-56b3-40b5-b5e7-3102daf0c633")
 		)
@@ -9626,7 +10242,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9643,7 +10259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2f005d")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 171.9072 90.2716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9696,6 +10312,39 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 168.91 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 168.91 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 168.91 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c5c79796-a7f5-43f3-b9b3-a8b51db6912a")
 		)
@@ -9705,7 +10354,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9722,7 +10371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2f048a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 168.91 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9781,7 +10430,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9798,7 +10447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2f058d")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 163.576 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9851,6 +10500,39 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 168.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 168.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 168.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0138139a-f07d-4b36-a671-79e7acdd511b")
 		)
@@ -9860,7 +10542,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9877,7 +10559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2f097b")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 141.986 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9930,6 +10612,39 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 147.32 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 147.32 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 147.32 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86b3a148-5689-4bf1-92b6-3d1ef1cf5c6f")
 		)
@@ -9939,7 +10654,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9956,7 +10671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2f0bfa")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 147.32 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10015,7 +10730,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10032,7 +10747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2f1025")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 181.61 87.376 0)
 			(hide yes)
 			(show_name no)
@@ -10089,7 +10804,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10106,7 +10821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2f1159")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 162.56 115.316 0)
 			(hide yes)
 			(show_name no)
@@ -10163,7 +10878,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10180,7 +10895,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c2f46c1")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 168.91 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10239,7 +10954,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10247,17 +10962,17 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 204.47 71.12 90)
+		(at 220.98 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c308775")
 		(property "Reference" "J7"
-			(at 209.2452 71.9836 90)
+			(at 225.7552 74.5236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10268,7 +10983,7 @@
 			)
 		)
 		(property "Value" "CLK4"
-			(at 209.2452 74.295 90)
+			(at 225.7552 76.835 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10279,7 +10994,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 204.47 71.12 0)
+			(at 220.98 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10290,7 +11005,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 71.12 0)
+			(at 220.98 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10301,7 +11016,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 71.12 0)
+			(at 220.98 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10327,7 +11042,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 76.2 0)
+		(at 223.52 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10336,8 +11051,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c308a74")
-		(property "Reference" "#PWR040"
-			(at 207.01 82.55 0)
+		(property "Reference" "#PWR044"
+			(at 223.52 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10348,7 +11063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.566 78.105 0)
+			(at 227.076 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10358,7 +11073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 76.2 0)
+			(at 223.52 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10369,7 +11084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 76.2 0)
+			(at 223.52 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10380,7 +11095,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 76.2 0)
+			(at 223.52 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10395,7 +11110,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10403,17 +11118,17 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 204.47 83.82 90)
+		(at 220.98 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c30a8eb")
 		(property "Reference" "J8"
-			(at 209.2452 84.6836 90)
+			(at 225.7552 87.2236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10424,7 +11139,7 @@
 			)
 		)
 		(property "Value" "CLK0"
-			(at 209.2452 86.995 90)
+			(at 225.7552 89.535 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10435,7 +11150,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 204.47 83.82 0)
+			(at 220.98 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10446,7 +11161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 83.82 0)
+			(at 220.98 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10457,7 +11172,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 83.82 0)
+			(at 220.98 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10483,7 +11198,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 88.9 0)
+		(at 223.52 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10492,8 +11207,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c30a8f1")
-		(property "Reference" "#PWR041"
-			(at 207.01 95.25 0)
+		(property "Reference" "#PWR045"
+			(at 223.52 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10504,7 +11219,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.566 90.805 0)
+			(at 227.076 93.345 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10514,7 +11229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 88.9 0)
+			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10525,7 +11240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 88.9 0)
+			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10536,7 +11251,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 88.9 0)
+			(at 223.52 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10551,7 +11266,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10559,17 +11274,17 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 204.47 96.52 90)
+		(at 220.98 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c30df26")
 		(property "Reference" "J9"
-			(at 209.2452 97.3836 90)
+			(at 225.7552 99.9236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10580,7 +11295,7 @@
 			)
 		)
 		(property "Value" "CLK2"
-			(at 209.2452 99.695 90)
+			(at 225.7552 102.235 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10591,7 +11306,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 204.47 96.52 0)
+			(at 220.98 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10602,7 +11317,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 96.52 0)
+			(at 220.98 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10613,7 +11328,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 96.52 0)
+			(at 220.98 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10639,7 +11354,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 101.6 0)
+		(at 223.52 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10648,8 +11363,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c30df2c")
-		(property "Reference" "#PWR042"
-			(at 207.01 107.95 0)
+		(property "Reference" "#PWR046"
+			(at 223.52 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10660,7 +11375,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.566 103.505 0)
+			(at 227.076 106.045 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10670,7 +11385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 101.6 0)
+			(at 223.52 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10681,7 +11396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 101.6 0)
+			(at 223.52 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10692,7 +11407,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 101.6 0)
+			(at 223.52 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10707,7 +11422,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR042")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10724,7 +11439,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c316da6")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 212.09 141.605 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10775,6 +11490,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 212.09 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 212.09 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 212.09 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7eaad59-997f-45c3-bb35-c76370d3f991")
 		)
@@ -10784,7 +11532,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10801,7 +11549,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c3172b0")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 213.36 149.225 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10852,6 +11600,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 213.36 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 213.36 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 213.36 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "308bfbd0-b60d-47f6-abfd-51e04d725ff7")
 		)
@@ -10861,7 +11642,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10878,7 +11659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c318085")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 215.9 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10937,7 +11718,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10954,7 +11735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c318286")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 217.17 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11013,7 +11794,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -11028,7 +11809,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c32004b")
 		(property "Reference" "J3"
 			(at 52.578 162.56 90)
@@ -11112,7 +11893,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005c32a058")
 		(property "Reference" "J6"
 			(at 131.572 162.1282 0)
@@ -11216,7 +11997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c32b00a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 143.51 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11275,7 +12056,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11292,7 +12073,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c32b145")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 143.51 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -11351,7 +12132,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11368,7 +12149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c32b422")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 143.51 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11427,7 +12208,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11444,7 +12225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c32b771")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 143.51 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -11503,7 +12284,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11520,7 +12301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c32b990")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 143.51 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -11579,7 +12360,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11596,7 +12377,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "054d1494-30d3-45ce-bc6f-bdd262132ae9")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR040"
 			(at 215.9 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11655,7 +12436,119 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR050")
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EtherkitKicadLibrary:R")
+		(at 207.01 82.55 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0896ee3f-754c-44ca-b136-540b427bebcb")
+		(property "Reference" "R14"
+			(at 207.01 78.105 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 207.01 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 207.01 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Series termination, CLK4"
+			(at 207.01 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 207.01 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 207.01 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 207.01 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18a1d992-def1-4048-ba6d-4e3db5587971")
+		)
+		(pin "2"
+			(uuid "0050fb0e-1e13-4efa-bc6d-99f4bed2f209")
+		)
+		(instances
+			(project "Si5351BCBreakout"
+				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -11672,7 +12565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a704c91-cfd6-4514-9e39-47f617616a39")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 111.76 28.956 0)
 			(hide yes)
 			(show_name no)
@@ -11729,7 +12622,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11822,10 +12715,10 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4ce360b8-0d72-43f4-8db2-27fc6a4c30ba")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 218.44 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11886,7 +12779,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -11901,10 +12794,10 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "522b6a2b-475b-4dd1-bfa0-9ee0e49f91de")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 190.5 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11965,7 +12858,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -11982,7 +12875,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e85cf98-9e1d-427c-a99c-f6fb7ae3edce")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR041"
 			(at 215.9 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12041,7 +12934,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR052")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -12058,7 +12951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "633cf406-7d7e-4d66-9256-358fc0eecbe6")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR039"
 			(at 187.96 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12117,86 +13010,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EtherkitKicadLibrary:R")
-		(at 95.25 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "697ce9cd-52c6-40d0-ac24-1eb8e1ab0417")
-		(property "Reference" "R8"
-			(at 97.2312 87.7316 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "300"
-			(at 97.2312 90.043 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 95.25 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c0ad5c9-b569-4f65-96be-84521a9e06e7")
-		)
-		(pin "2"
-			(uuid "a89543cd-dd59-4b33-a69d-91b929b7b4fb")
-		)
-		(instances
-			(project "Si5351BCBreakout"
-				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R8")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12289,7 +13103,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "768c0ef6-9302-478b-ae86-1cc22df9e62b")
 		(property "Reference" "H1"
@@ -12360,6 +13174,118 @@
 		)
 	)
 	(symbol
+		(lib_id "EtherkitKicadLibrary:C")
+		(at 105.41 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d46fa32-35e3-4746-b0f7-f56f1e46661b")
+		(property "Reference" "C5"
+			(at 107.188 78.232 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 107.95 80.264 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 105.41 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 105.41 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 105.41 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 105.41 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3321225-4437-4b5e-b9cc-e1c0e9418ed6")
+		)
+		(pin "2"
+			(uuid "2484b8cf-6d14-46c4-aaf3-44196d3196e6")
+		)
+		(instances
+			(project "Si5351BCBreakout"
+				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 26.67 0)
 		(unit 1)
@@ -12370,7 +13296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fe6cb70-276c-4ffa-b170-24c5e43661f7")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR038"
 			(at 187.96 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12429,86 +13355,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EtherkitKicadLibrary:R")
-		(at 85.09 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "95ab7cdb-9c54-406c-bb5c-7d09fc9a6a8e")
-		(property "Reference" "R5"
-			(at 87.0712 87.7316 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "300"
-			(at 87.0712 90.043 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 85.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5310163-aadb-4b94-8aae-b4acb5fd7b80")
-		)
-		(pin "2"
-			(uuid "10cddd46-8f0a-45d4-98bb-6761a323dadb")
-		)
-		(instances
-			(project "Si5351BCBreakout"
-				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R5")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12525,7 +13372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1e9b932-f8de-40f9-97d0-aa43883b57ca")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 109.22 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12584,83 +13431,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a7f1b77f-8a66-4d95-a85c-c5f06792c388")
-		(property "Reference" "#PWR021"
-			(at 95.25 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.377 97.1042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e191ee93-d49c-4fbe-8e45-dcd95fee0a67")
-		)
-		(instances
-			(project "Si5351BCBreakout"
-				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12745,6 +13516,118 @@
 		)
 	)
 	(symbol
+		(lib_id "EtherkitKicadLibrary:R")
+		(at 207.01 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad877bc8-7786-4e42-a01f-9da1047b0100")
+		(property "Reference" "R15"
+			(at 207.01 90.805 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 207.01 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 207.01 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Series termination, CLK0"
+			(at 207.01 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 207.01 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 207.01 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 207.01 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18f05a32-ab52-4c1c-8b7b-555c684a2bf0")
+		)
+		(pin "2"
+			(uuid "3a631d08-4124-4d18-ab70-c6b667f62f39")
+		)
+		(instances
+			(project "Si5351BCBreakout"
+				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EtherkitKicadLibrary:+3.3VREG")
 		(at 109.22 92.71 0)
 		(unit 1)
@@ -12755,7 +13638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae085c9e-bdb2-4842-843f-35648581da77")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 109.22 93.726 0)
 			(hide yes)
 			(show_name no)
@@ -12812,7 +13695,7 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12897,85 +13780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EtherkitKicadLibrary:R")
-		(at 90.17 83.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bc026089-ac4c-4cba-ac0f-ee06e1e7172b")
-		(property "Reference" "R6"
-			(at 91.186 78.486 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18"
-			(at 91.186 80.772 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 90.17 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3181290e-c061-48ad-85c4-cc2e02428c58")
-		)
-		(pin "2"
-			(uuid "7d4e2b19-cf6a-423e-aec2-cf3776024392")
-		)
-		(instances
-			(project "Si5351BCBreakout"
-				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 101.6 27.94 0)
 		(unit 1)
@@ -12986,7 +13790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb0299d0-f2a3-40ec-a323-e248c76b3e65")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR020"
 			(at 101.6 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -13045,7 +13849,119 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "#PWR022")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EtherkitKicadLibrary:R")
+		(at 207.01 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cdf0996a-9e63-42a5-95a1-24ceb8baadf3")
+		(property "Reference" "R16"
+			(at 207.01 104.775 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 207.01 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 207.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Series termination, CLK2"
+			(at 207.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 207.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 207.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 207.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd3a5381-cc85-48fc-8097-4597e298bad3")
+		)
+		(pin "2"
+			(uuid "33d47ebf-4d8a-4834-84c2-dc9e9828f4f2")
+		)
+		(instances
+			(project "Si5351BCBreakout"
+				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13062,7 +13978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df97fcd8-9aa9-4263-8ed7-ac4933c2ab37")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 111.2012 110.5916 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13115,6 +14031,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 109.22 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 109.22 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 109.22 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21dc9b09-f638-44d2-b3e0-3cd0ade30bf1")
 		)
@@ -13124,8 +14073,12 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
+					(variant
+						(name "Si5351C")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -13139,7 +14092,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e96ac366-99f5-40ac-bdcf-36e1da5d6aae")
 		(property "Reference" "H4"
@@ -13220,7 +14173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5e208ba-10ad-45a3-8572-2d1e749817e8")
-		(property "Reference" "R10"
+		(property "Reference" "R7"
 			(at 111.2012 96.6216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13273,6 +14226,39 @@
 				)
 			)
 		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 109.22 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 109.22 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 109.22 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8239e7c2-6d8b-43bc-9ab1-8eb209ab9f88")
 		)
@@ -13282,8 +14268,12 @@
 		(instances
 			(project "Si5351BCBreakout"
 				(path "/790cb86a-cab8-4bac-a34d-669b0923a386"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
+					(variant
+						(name "Si5351B")
+						(dnp yes)
+					)
 				)
 			)
 		)
